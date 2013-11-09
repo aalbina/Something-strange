@@ -35,6 +35,8 @@ namespace name_of_your_app
             try
             {
                 // we have internet and answer from server
+				string x = await Test();
+				// use x as you need
             }
             catch (HttpRequestException е)
             {
